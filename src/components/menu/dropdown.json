@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_menu_dropdowns",
+  "info": {
+    "displayName": "dropdown",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "dropdown_link": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu-section.menu-section"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "border",
+        "blue"
+      ],
+      "default": "none",
+      "required": true
+    }
+  }
+}
