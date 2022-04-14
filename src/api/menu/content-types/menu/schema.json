@@ -14,7 +14,18 @@
   "attributes": {
     "links": {
       "type": "dynamiczone",
-      "components": ["menu.dropdown", "menu.link"]
+      "components": [
+        "menu.dropdown",
+        "menu.link"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -21,16 +21,6 @@
       "type": "component",
       "repeatable": true,
       "component": "menu.link"
-    },
-    "style": {
-      "type": "enumeration",
-      "enum": [
-        "none",
-        "border",
-        "blue"
-      ],
-      "default": "none",
-      "required": true
     }
   }
 }
