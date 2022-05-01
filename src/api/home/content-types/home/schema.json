@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "singleCardA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.single-card-a"
+    },
+    "carousel": {
+      "displayName": "carou",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.carou"
+    }
+  }
+}
