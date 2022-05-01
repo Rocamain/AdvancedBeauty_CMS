@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_single_card_as",
+  "info": {
+    "displayName": "SingleCardA",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

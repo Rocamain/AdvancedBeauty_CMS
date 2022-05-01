@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_variant_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "enumeration",
+      "enum": [
+        "carousel title",
+        "carousel subtitle"
+      ],
+      "required": true
+    }
+  }
+}
