@@ -11,8 +11,9 @@
       "type": "string",
       "required": true
     },
-    "url": {
-      "type": "string",
+    "isMainPathLink": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }

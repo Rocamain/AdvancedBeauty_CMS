@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "menu_sections",
+  "collectionName": "dropdown_links",
   "info": {
-    "singularName": "menu-section",
-    "pluralName": "menu-sections",
-    "displayName": "Menu section",
+    "singularName": "dropdown-link",
+    "pluralName": "dropdown-links",
+    "displayName": "dropdown link",
     "description": ""
   },
   "options": {
@@ -13,11 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
-    "links": {
+    "link": {
       "type": "component",
       "repeatable": true,
       "component": "menu.link"

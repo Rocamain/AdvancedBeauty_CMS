@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_dropdown_links",
+  "info": {
+    "displayName": "dropdown links",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 38
+    }
+  }
+}
