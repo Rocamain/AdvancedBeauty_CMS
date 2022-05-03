@@ -1,5 +1,7 @@
 ############################
-#  FOR DEPLOYMENT IN HEROKU
+#  FOR DEPLOYMENT IN HEROKU\
+
+package-lock.json
 ############################
 
 # package-lock.json
