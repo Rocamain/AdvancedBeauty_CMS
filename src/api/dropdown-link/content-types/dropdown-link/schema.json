@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "link": {
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "menu.link"
+    },
+    "label": {
+      "type": "string"
     }
   }
 }

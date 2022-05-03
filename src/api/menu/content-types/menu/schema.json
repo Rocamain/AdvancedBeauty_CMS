@@ -15,7 +15,8 @@
     "links": {
       "type": "dynamiczone",
       "components": [
-        "menu.link"
+        "menu.link",
+        "menu.dropdown"
       ]
     },
     "logo": {
