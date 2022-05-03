@@ -14,17 +14,9 @@
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/provider-upload-cloudinary": "^4.1.7",
     "@strapi/strapi": "4.1.7",
-<<<<<<< HEAD
-    "strapi-plugin-transformer": "^2.0.1",
-    "pg": "8.6.0",
-    "pg-connection-string": "^2.5.0"
-=======
-    "install": "^0.13.0",
-    "npm": "^8.8.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-transformer": "^2.0.1"
->>>>>>> deployment
   },
   "author": {
     "name": "A Strapi developer"
