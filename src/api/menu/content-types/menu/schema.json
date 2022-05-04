@@ -15,20 +15,10 @@
     "links": {
       "type": "dynamiczone",
       "components": [
-        "menu.link",
-        "menu.dropdown"
-      ]
-    },
-    "logo": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+        "menu.dropdown-link",
+        "menu.links"
+      ],
+      "required": true
     }
   }
 }

@@ -21,16 +21,6 @@
       "type": "string",
       "required": true
     },
-    "variantTitle": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::variant.variant"
-    },
-    "variantSubtitle": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::variant.variant"
-    },
     "background": {
       "type": "media",
       "multiple": false,
