@@ -12,13 +12,13 @@
       "required": true
     },
     "content": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]

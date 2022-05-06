@@ -20,7 +20,7 @@
     "carousel": {
       "displayName": "carou",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "home.carou"
     }
   }

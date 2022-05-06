@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_menu_links",
+  "collectionName": "components_menu_dropdown_links",
   "info": {
-    "displayName": "link",
-    "icon": "link",
+    "displayName": "dropdown-link",
+    "icon": "angle-double-down",
     "description": ""
   },
   "options": {},
@@ -13,7 +13,7 @@
     },
     "isPathToID": {
       "type": "boolean",
-      "default": false
+      "required": true
     }
   }
 }

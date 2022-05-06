@@ -1,34 +1,20 @@
 {
   "collectionName": "components_menu_dropdowns",
   "info": {
-    "displayName": "dropdown",
+    "displayName": "drop",
     "icon": "angle-down",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "route": {
       "type": "string",
       "required": true
     },
-    "url": {
-      "type": "string",
-      "required": true
-    },
-    "dropdown_link": {
+    "dropdown": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::menu-section.menu-section"
-    },
-    "style": {
-      "type": "enumeration",
-      "enum": [
-        "none",
-        "border",
-        "blue"
-      ],
-      "default": "none",
-      "required": true
+      "target": "api::dropdown-link.dropdown-link"
     }
   }
 }
