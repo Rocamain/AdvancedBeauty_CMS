@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_card_as",
+  "info": {
+    "displayName": "Card A",
+    "icon": "id-card-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

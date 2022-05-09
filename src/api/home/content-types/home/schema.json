@@ -12,16 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "singleCardA": {
-      "type": "component",
-      "repeatable": true,
-      "component": "home.single-card-a"
-    },
-    "carousel": {
-      "displayName": "carou",
-      "type": "component",
-      "repeatable": true,
-      "component": "home.carou"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card-a",
+        "shared.carousel",
+        "shared.grid-a"
+      ]
     }
   }
 }

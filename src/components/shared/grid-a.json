@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_grid_as",
+  "info": {
+    "displayName": "Grid A",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "To": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

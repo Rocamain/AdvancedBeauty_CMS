@@ -12,10 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hello": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.carou"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "home.single-card-a",
+        "home.carou",
+        "home.cards"
+      ]
     }
   }
 }
