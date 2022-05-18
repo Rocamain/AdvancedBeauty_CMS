@@ -4,15 +4,21 @@
   "info": {
     "singularName": "about-us",
     "pluralName": "about-uses",
-    "displayName": "About us"
+    "displayName": "About us",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "label": {
-      "type": "string"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.carousel",
+        "shared.card-a"
+      ],
+      "required": true
     }
   }
 }

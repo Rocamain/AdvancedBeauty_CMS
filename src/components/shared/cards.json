@@ -22,6 +22,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonTo": {
+      "type": "string"
     }
   }
 }

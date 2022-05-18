@@ -40,18 +40,5 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => {
 
       return { data, meta };
     },
-
-    // Method 3: Replacing a core action
-    async findOne(ctx) {
-      const { id } = ctx.params;
-      const { query } = ctx;
-
-      const entity = await strapi
-        .service("api::restaurant.restaurant")
-        .findOne(id, query);
-      const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
-
-      return this.transformResponse(sanitizedEntity);
-    },
   };
 });

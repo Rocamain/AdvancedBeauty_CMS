@@ -14,11 +14,7 @@
   "attributes": {
     "components": {
       "type": "dynamiczone",
-      "components": [
-        "home.single-card-a",
-        "home.carou",
-        "home.cards"
-      ]
+      "components": []
     }
   }
 }
