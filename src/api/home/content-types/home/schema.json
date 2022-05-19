@@ -20,12 +20,8 @@
         "shared.grid-a"
       ]
     },
-    "links": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.card-a",
-        "shared.cards"
-      ]
+    "label": {
+      "type": "string"
     }
   }
 }
