@@ -1,16 +1,17 @@
 {
   "collectionName": "components_shared_buttons",
   "info": {
-    "displayName": "Button",
-    "icon": "window-maximize"
+    "displayName": "button",
+    "icon": "window-maximize",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "buttonText": {
       "type": "string",
       "required": true
     },
-    "To": {
+    "buttonTo": {
       "type": "string",
       "required": true
     }

@@ -29,7 +29,7 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => {
 
       // Calling the default core action
       const { data, meta } = await super.find(ctx);
-      console.log("hello".data);
+
       if (data.attributes.components) {
         data.attributes.components.map((component) => {
           component.componentName = COMPONENT[component.__component];

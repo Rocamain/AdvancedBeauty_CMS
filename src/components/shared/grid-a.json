@@ -19,7 +19,7 @@
       "repeatable": true,
       "component": "shared.cards"
     },
-    "Button": {
+    "button": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,
@@ -32,6 +32,28 @@
         "full"
       ],
       "default": "full"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "show": {
+      "type": "enumeration",
+      "enum": [
+        "cards",
+        "photo"
+      ]
+    },
+    "photoColumn": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "second"
+      ]
     }
   }
 }
