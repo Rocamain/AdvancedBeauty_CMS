@@ -15,18 +15,19 @@
     "links": {
       "type": "dynamiczone",
       "components": [
-        "menu.dropdown-link",
-        "menu.links"
-      ],
-      "required": true
+        "menu.links",
+        "menu.dropdown-link"
+      ]
     },
     "logo": {
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": true
     }
   }
 }
