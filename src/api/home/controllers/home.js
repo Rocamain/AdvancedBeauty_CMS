@@ -5,7 +5,7 @@
  */
 const COMPONENT = {
   "shared.carousel": "Carousel",
-  "home-single-card-a": "SingleCardA",
+  "shared.card-a": "CardA",
   "shared.grid-a": "GridA",
 };
 

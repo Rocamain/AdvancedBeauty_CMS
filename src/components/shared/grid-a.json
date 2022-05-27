@@ -25,11 +25,14 @@
       "repeatable": false,
       "component": "shared.button"
     },
-    "backgroundSize": {
+    "backgroundType": {
       "type": "enumeration",
       "enum": [
         "none",
-        "full"
+        "full",
+        "right",
+        "leaves",
+        "mixed leaves and right"
       ],
       "default": "full"
     },
