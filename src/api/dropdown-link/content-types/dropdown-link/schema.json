@@ -4,7 +4,7 @@
   "info": {
     "singularName": "dropdown-link",
     "pluralName": "dropdown-links",
-    "displayName": "dropdown links",
+    "displayName": "dropdown_link",
     "description": ""
   },
   "options": {
@@ -13,15 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "route": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "links": {
-      "type": "dynamiczone",
-      "components": [
-        "menu.dropdown-link"
-      ],
-      "required": true
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.links"
     }
   }
 }

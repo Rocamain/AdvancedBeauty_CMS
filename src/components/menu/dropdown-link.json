@@ -1,14 +1,9 @@
 {
   "collectionName": "components_menu_dropdown_links",
   "info": {
-<<<<<<< HEAD
-    "displayName": "dropdown-link",
-    "icon": "angle-double-down",
-    "description": ""
-=======
     "displayName": "dropdown link",
-    "icon": "angle-down"
->>>>>>> main
+    "icon": "angle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,16 +11,10 @@
       "type": "string",
       "required": true
     },
-<<<<<<< HEAD
-    "isPathToID": {
-      "type": "boolean",
-      "required": true
-=======
-    "dropown_menu": {
+    "dropdown_links": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::dropown-menu.dropown-menu"
->>>>>>> main
+      "target": "api::dropdown-link.dropdown-link"
     }
   }
 }

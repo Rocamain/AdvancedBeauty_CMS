@@ -49,7 +49,8 @@
       "enum": [
         "cards",
         "photo"
-      ]
+      ],
+      "default": "cards"
     },
     "photoColumn": {
       "type": "enumeration",

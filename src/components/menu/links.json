@@ -11,11 +11,7 @@
       "type": "string",
       "required": true
     },
-<<<<<<< HEAD:src/components/menu/link.json
-    "isPathToID": {
-=======
     "isPathID": {
->>>>>>> main:src/components/menu/links.json
       "type": "boolean",
       "default": false
     }
