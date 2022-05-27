@@ -10,12 +10,7 @@
       "type": "string",
       "required": true
     },
-    "cards": {
-      "displayName": "cards",
-      "type": "component",
-      "repeatable": true,
-      "component": "home.cards"
-    },
+
     "subtitle": {
       "type": "string",
       "required": true
