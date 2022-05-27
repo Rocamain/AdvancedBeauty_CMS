@@ -4,7 +4,11 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
+<<<<<<< HEAD
+    "displayName": "Contact",
+=======
     "displayName": "contact",
+>>>>>>> main
     "description": ""
   },
   "options": {
@@ -12,10 +16,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hello": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.carou"
+    "components": {
+      "type": "dynamiczone",
+      "components": []
     }
   }
 }

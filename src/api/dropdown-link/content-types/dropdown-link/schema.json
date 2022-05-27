@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dropdown_links",
+  "info": {
+    "singularName": "dropdown-link",
+    "pluralName": "dropdown-links",
+    "displayName": "dropdown links",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "route": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.dropdown-link"
+      ],
+      "required": true
+    }
+  }
+}

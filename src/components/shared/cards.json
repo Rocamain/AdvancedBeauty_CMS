@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_home_cards",
+  "collectionName": "components_shared_cards",
   "info": {
     "displayName": "cards",
-    "icon": "air-freshener",
+    "icon": "id-card",
     "description": ""
   },
   "options": {},
@@ -12,16 +12,22 @@
       "required": true
     },
     "content": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonTo": {
+      "type": "string"
     }
   }
 }

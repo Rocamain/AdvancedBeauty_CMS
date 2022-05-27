@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_shared_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+<<<<<<< HEAD:src/components/shared/carousel.json
+    "variantTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::variant.variant"
+    },
+    "subtitle": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "variantSubtitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::variant.variant"
+    },
+=======
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.cards"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+>>>>>>> main:src/components/home/carou.json
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
+    }
+  }
+}

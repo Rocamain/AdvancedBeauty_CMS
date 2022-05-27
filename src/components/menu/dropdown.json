@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_menu_dropdowns",
+  "info": {
+    "displayName": "drop",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "route": {
+      "type": "string",
+      "required": true
+    },
+    "dropdown": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dropdown-link.dropdown-link"
+    }
+  }
+}

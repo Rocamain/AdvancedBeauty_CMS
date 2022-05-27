@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "menus",
+  "collectionName": "about_uses",
   "info": {
-    "singularName": "menu",
-    "pluralName": "menus",
-    "displayName": "Menu",
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About us",
     "description": ""
   },
   "options": {
@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "links": {
+    "components": {
       "type": "dynamiczone",
       "components": [
-        "menu.dropdown-link",
-        "menu.links"
+        "shared.carousel",
+        "shared.card-a"
       ],
       "required": true
     }
