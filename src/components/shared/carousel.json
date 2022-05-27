@@ -10,6 +10,7 @@
       "type": "string",
       "required": true
     },
+<<<<<<< HEAD:src/components/shared/carousel.json
     "variantTitle": {
       "type": "relation",
       "relation": "oneToOne",
@@ -25,6 +26,18 @@
       "relation": "oneToOne",
       "target": "api::variant.variant"
     },
+=======
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.cards"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+>>>>>>> main:src/components/home/carou.json
     "background": {
       "allowedTypes": [
         "images"

@@ -4,7 +4,11 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
+<<<<<<< HEAD
     "displayName": "Contact",
+=======
+    "displayName": "contact",
+>>>>>>> main
     "description": ""
   },
   "options": {
