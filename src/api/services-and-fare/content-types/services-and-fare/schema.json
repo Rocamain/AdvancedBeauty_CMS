@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_and_fares",
+  "info": {
+    "singularName": "services-and-fare",
+    "pluralName": "services-and-fares",
+    "displayName": "Services and fare",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

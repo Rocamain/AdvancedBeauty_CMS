@@ -7,14 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "route": {
       "type": "string",
       "required": true
     },
-    "isMainPathLink": {
+    "isPathID": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "default": false
     }
   }
 }

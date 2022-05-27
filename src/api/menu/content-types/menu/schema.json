@@ -4,7 +4,7 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "menu",
+    "displayName": "Menu",
     "description": ""
   },
   "options": {
@@ -15,19 +15,19 @@
     "links": {
       "type": "dynamiczone",
       "components": [
-        "menu.link"
+        "menu.links",
+        "menu.dropdown-link"
       ]
     },
     "logo": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

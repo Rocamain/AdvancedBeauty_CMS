@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_shared_grid_as",
+  "info": {
+    "displayName": "Grid A",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "backgroundType": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "full",
+        "right",
+        "leaves",
+        "mixed leaves and right"
+      ],
+      "default": "full"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "show": {
+      "type": "enumeration",
+      "enum": [
+        "cards",
+        "photo"
+      ],
+      "default": "cards"
+    },
+    "photoColumn": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "second"
+      ]
+    }
+  }
+}
