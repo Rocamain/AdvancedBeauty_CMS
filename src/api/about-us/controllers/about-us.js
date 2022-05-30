@@ -6,7 +6,7 @@
 
 const COMPONENT = {
   "shared.carousel": "Carousel",
-  "shared.card-a": "SingleCardA",
+  "shared.card-a": "CardA",
   "shared.grid-a": "GridA",
 };
 
