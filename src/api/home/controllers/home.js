@@ -38,7 +38,7 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => {
       // some more custom logic
       meta.date = Date.now();
 
-      return { data, meta };
+      return { data: data.attributes.components, meta };
     },
   };
 });

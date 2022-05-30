@@ -41,12 +41,8 @@ module.exports = createCoreController(
         // some more custom logic
         meta.date = Date.now();
 
-        return { data, meta };
+        return { data: data.attributes.components, meta };
       },
     };
   }
-);
-
-module.exports = createCoreController(
-  "api::services-and-fare.services-and-fare"
 );
