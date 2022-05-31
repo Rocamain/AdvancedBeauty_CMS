@@ -28,6 +28,14 @@
     },
     "buttonTo": {
       "type": "string"
+    },
+    "tittle_color": {
+      "type": "enumeration",
+      "enum": [
+        "grey",
+        "orange",
+        "green"
+      ]
     }
   }
 }
