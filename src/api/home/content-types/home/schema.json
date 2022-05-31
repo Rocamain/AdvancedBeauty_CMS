@@ -17,7 +17,8 @@
       "components": [
         "shared.card-a",
         "shared.carousel",
-        "shared.grid-a"
+        "shared.grid-a",
+        "shared.grid-b"
       ]
     },
     "label": {

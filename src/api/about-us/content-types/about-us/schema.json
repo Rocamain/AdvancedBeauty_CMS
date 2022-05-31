@@ -15,9 +15,10 @@
     "components": {
       "type": "dynamiczone",
       "components": [
-        "shared.carousel",
         "shared.card-a",
-        "shared.grid-a"
+        "shared.carousel",
+        "shared.grid-a",
+        "shared.grid-b"
       ],
       "required": true
     }
