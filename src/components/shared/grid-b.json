@@ -18,7 +18,7 @@
       "component": "shared.cards",
       "required": true
     },
-    "Size": {
+    "size": {
       "type": "enumeration",
       "enum": [
         "Small",
