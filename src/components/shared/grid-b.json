@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_grid_bs",
+  "info": {
+    "displayName": "Grid B",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "maxLength": 25
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards",
+      "required": true
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "Small",
+        "Big"
+      ],
+      "required": true,
+      "default": "Big"
+    }
+  }
+}
