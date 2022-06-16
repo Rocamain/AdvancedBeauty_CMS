@@ -1,21 +1,22 @@
 {
-  "name": "avanced-beauty-cms",
+  "name": "advanced-beauty-cms",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "develop": "strapi develop --watch-admin",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
-    "@strapi/provider-upload-cloudinary": "^4.1.7",
-    "@strapi/strapi": "4.1.9",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/provider-upload-cloudinary": "^4.1.12",
+    "@strapi/strapi": "4.1.12",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-navigation": "^2.0.13",
     "strapi-plugin-transformer": "^2.0.1"
   },
   "author": {

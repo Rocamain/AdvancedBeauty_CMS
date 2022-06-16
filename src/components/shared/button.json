@@ -11,9 +11,17 @@
       "type": "string",
       "required": true
     },
-    "buttonTo": {
-      "type": "string",
-      "required": true
+    "sectionTitle": {
+      "type": "string"
+    },
+    "page": {
+      "type": "enumeration",
+      "enum": [
+        "Home",
+        "About-us",
+        "Services-and-Fares",
+        "Contact"
+      ]
     }
   }
 }

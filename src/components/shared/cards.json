@@ -23,19 +23,20 @@
         "images"
       ]
     },
-    "buttonText": {
-      "type": "string"
-    },
-    "buttonTo": {
-      "type": "string"
-    },
-    "tittle_color": {
+    "Page": {
       "type": "enumeration",
       "enum": [
-        "grey",
-        "orange",
-        "green"
+        "Home",
+        "About-us",
+        "Services-and-Fares",
+        "Contact"
       ]
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
     }
   }
 }

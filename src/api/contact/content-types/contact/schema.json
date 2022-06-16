@@ -4,7 +4,7 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact",
+    "displayName": "Contact",
     "description": ""
   },
   "options": {
@@ -14,7 +14,9 @@
   "attributes": {
     "components": {
       "type": "dynamiczone",
-      "components": []
+      "components": [
+        "shared.card-a"
+      ]
     }
   }
 }

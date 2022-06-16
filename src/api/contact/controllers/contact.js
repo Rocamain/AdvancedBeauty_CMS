@@ -5,9 +5,10 @@
  */
 
 const COMPONENT = {
-  "home.carou": "Carousel",
-  "home-single-card-a": "SingleCardA",
-  "home-card": "Card",
+  "shared.carousel": "Carousel",
+  "shared.card-a": "CardA",
+  "shared.grid-a": "GridA",
+  "shared.grid-b": "GridB",
 };
 
 const { createCoreController } = require("@strapi/strapi").factories;
