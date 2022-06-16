@@ -10,11 +10,6 @@
     "route": {
       "type": "string",
       "required": true
-    },
-    "dropdown_links": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::dropdown-link.dropdown-link"
     }
   }
 }
