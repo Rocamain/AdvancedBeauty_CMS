@@ -23,7 +23,7 @@
         "images"
       ]
     },
-    "Page": {
+    "page": {
       "type": "enumeration",
       "enum": [
         "Home",
