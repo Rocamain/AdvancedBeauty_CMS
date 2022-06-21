@@ -25,7 +25,6 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => {
 
     // Method 2: Wrapping a core action (leaves core logic in place)
     async find(ctx) {
-      console.log(ctx);
       // some custom logic here
       ctx.query = { ...ctx.query, local: "en" };
 
