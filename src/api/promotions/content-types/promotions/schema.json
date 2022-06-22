@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "promotionses",
+  "info": {
+    "singularName": "promotions",
+    "pluralName": "promotionses",
+    "displayName": "Promotions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card-a",
+        "shared.carousel",
+        "shared.grid-a",
+        "shared.grid-b"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

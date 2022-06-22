@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "illas",
+  "info": {
+    "singularName": "illa",
+    "pluralName": "illas",
+    "displayName": "Illa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card-a",
+        "shared.carousel",
+        "shared.grid-a",
+        "shared.grid-b"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
