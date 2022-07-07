@@ -19,7 +19,9 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "page": {
       "type": "enumeration",
@@ -49,6 +51,11 @@
     },
     "Card": {
       "type": "richtext"
+    },
+    "SectionID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
     }
   }
 }
