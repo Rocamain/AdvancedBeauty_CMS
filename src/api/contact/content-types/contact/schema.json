@@ -14,10 +14,7 @@
   "attributes": {
     "components": {
       "type": "dynamiczone",
-      "components": [
-        "shared.card-a",
-        "shared.grid-a"
-      ]
+      "components": ["shared.card-a", "shared.grid-a", "shared.grid-b"]
     }
   }
 }
