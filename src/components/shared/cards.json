@@ -19,9 +19,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "page": {
       "type": "enumeration",
@@ -29,6 +27,10 @@
         "Home",
         "About-us",
         "Services-and-Fares",
+        "Services-and-Fares/Services-in-L'illa-Diagonal",
+        "Services-and-Fares/Services-in-Turo-Park",
+        "Services-and-Fares/Services-in-Palma-de-Majorca",
+        "Diagonal",
         "Contact"
       ]
     },
@@ -37,6 +39,16 @@
     },
     "buttonText": {
       "type": "string"
+    },
+    "FirstLineOnContentIsSubtitle": {
+      "type": "boolean"
+    },
+    "CardInContent": {
+      "type": "boolean",
+      "default": false
+    },
+    "Card": {
+      "type": "richtext"
     }
   }
 }

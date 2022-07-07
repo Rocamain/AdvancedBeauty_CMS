@@ -26,6 +26,15 @@
       ],
       "required": true,
       "default": "Big"
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "grey",
+        "blue",
+        "orange"
+      ],
+      "default": "grey"
     }
   }
 }
