@@ -30,20 +30,6 @@
     "price": {
       "type": "integer",
       "required": true
-    },
-    "Path": {
-      "type": "enumeration",
-      "enum": [
-        "Home",
-        "About us",
-        "Services and Fare",
-        "Promotions",
-        "Fares",
-        "Contact",
-        "Illa",
-        "Palma",
-        "Turo"
-      ]
     }
   }
 }

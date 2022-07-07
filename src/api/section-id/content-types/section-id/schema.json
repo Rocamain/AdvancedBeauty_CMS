@@ -4,7 +4,8 @@
   "info": {
     "singularName": "section-id",
     "pluralName": "section-ids",
-    "displayName": "SectionID"
+    "displayName": "SectionID",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "enumeration",
+      "enum": [
+        "Home",
+        "About us",
+        "Services and Fare",
+        "Promotions",
+        "Fares",
+        "Contact",
+        "Illa",
+        "Palma",
+        "Turo"
+      ],
+      "required": true
     }
   }
 }
