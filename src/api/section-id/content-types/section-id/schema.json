@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_ids",
+  "info": {
+    "singularName": "section-id",
+    "pluralName": "section-ids",
+    "displayName": "SectionID"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

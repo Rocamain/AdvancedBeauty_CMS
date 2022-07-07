@@ -4,7 +4,8 @@
   "info": {
     "singularName": "turo",
     "pluralName": "turos",
-    "displayName": "Turo"
+    "displayName": "Turo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
         "shared.card-a",
         "shared.carousel",
         "shared.grid-a",
-        "shared.grid-b"
+        "shared.grid-b",
+        "shared.accordion"
       ]
     },
     "label": {
