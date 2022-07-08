@@ -30,16 +30,6 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
-    },
-    "cover": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
