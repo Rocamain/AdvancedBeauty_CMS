@@ -35,6 +35,7 @@ module.exports = createCoreController("api::palma.palma", ({ strapi }) => {
 
       if (data.attributes.components) {
         data.attributes.components.map((component) => {
+          console.log(data);
           component.componentName = COMPONENT[component.__component];
         });
       }

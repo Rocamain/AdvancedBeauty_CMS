@@ -5,6 +5,7 @@
  */
 
 const COMPONENT = {
+  "shared.hero": "Hero",
   "shared.carousel": "Carousel",
   "shared.card-a": "CardA",
   "shared.grid-a": "GridA",
