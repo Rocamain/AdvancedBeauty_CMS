@@ -59,7 +59,7 @@
         "second"
       ]
     },
-    "sectionsTitle": {
+    "sectionTitle": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
