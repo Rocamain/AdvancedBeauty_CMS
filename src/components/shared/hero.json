@@ -20,6 +20,14 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.button"
+    },
+    "cover": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
