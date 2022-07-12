@@ -6,6 +6,7 @@
 
 const COMPONENT = {
   "shared.carousel": "Carousel",
+  "shared.accordion": "Accordion",
   "shared.card-a": "CardA",
   "shared.grid-a": "GridA",
   "shared.grid-b": "GridB",
@@ -34,6 +35,7 @@ module.exports = createCoreController("api::palma.palma", ({ strapi }) => {
 
       if (data.attributes.components) {
         data.attributes.components.map((component) => {
+          console.log(data);
           component.componentName = COMPONENT[component.__component];
         });
       }

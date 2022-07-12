@@ -25,6 +25,21 @@
         "Services-and-Fares/Services-in-Palma-de-Majorca",
         "Contact"
       ]
+    },
+    "SectionID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

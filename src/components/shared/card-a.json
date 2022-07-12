@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "button": {
       "type": "component",
       "repeatable": false,
@@ -27,6 +23,11 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "Title": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
     }
   }
 }

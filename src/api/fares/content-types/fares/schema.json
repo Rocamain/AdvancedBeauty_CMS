@@ -4,7 +4,8 @@
   "info": {
     "singularName": "fares",
     "pluralName": "fareses",
-    "displayName": "Fares"
+    "displayName": "Fares",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
         "shared.card-a",
         "shared.carousel",
         "shared.grid-a",
-        "shared.grid-b"
+        "shared.grid-b",
+        "shared.hero"
       ]
     },
     "label": {

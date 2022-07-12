@@ -18,7 +18,8 @@
         "shared.card-a",
         "shared.carousel",
         "shared.grid-a",
-        "shared.grid-b"
+        "shared.grid-b",
+        "shared.hero"
       ]
     },
     "label": {
