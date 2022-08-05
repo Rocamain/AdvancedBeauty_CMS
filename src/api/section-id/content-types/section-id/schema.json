@@ -4,7 +4,7 @@
   "info": {
     "singularName": "section-id",
     "pluralName": "section-ids",
-    "displayName": "SectionID",
+    "displayName": "Sections_title",
     "description": ""
   },
   "options": {
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },

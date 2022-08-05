@@ -28,6 +28,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.cards"
+    },
+    "sectionTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
     }
   }
 }

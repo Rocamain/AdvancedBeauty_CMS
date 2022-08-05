@@ -24,7 +24,7 @@
       "type": "richtext",
       "required": true
     },
-    "Title": {
+    "sectionTitle": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
