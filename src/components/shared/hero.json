@@ -29,11 +29,13 @@
       "repeatable": false,
       "component": "shared.button"
     },
-    "Cover": {
+    "cover": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
