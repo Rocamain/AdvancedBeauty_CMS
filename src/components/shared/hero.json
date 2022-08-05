@@ -8,13 +8,21 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 25
     },
     "subTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "minLength": 8,
+      "maxLength": 25
     },
     "content": {
-      "type": "text"
+      "type": "text",
+      "minLength": 30,
+      "maxLength": 180
     },
     "button": {
       "type": "component",
@@ -22,12 +30,12 @@
       "component": "shared.button"
     },
     "Cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
