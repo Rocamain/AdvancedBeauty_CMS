@@ -18,10 +18,8 @@
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"],
+      "required": true
     },
     "page": {
       "type": "enumeration",
