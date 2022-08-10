@@ -13,17 +13,13 @@
       "type": "text"
     },
     "photo": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false
     },
     "page": {
       "type": "enumeration",
-      "enum": [
-        "Home"
-      ]
+      "enum": ["Home"]
     },
     "sectionsD": {
       "type": "relation",
