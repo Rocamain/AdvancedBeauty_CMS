@@ -21,7 +21,6 @@
     },
     "content": {
       "type": "text",
-      "minLength": 30,
       "maxLength": 180
     },
     "button": {
@@ -33,9 +32,11 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
+    },
+    "showContent": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
