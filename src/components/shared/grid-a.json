@@ -22,44 +22,30 @@
     },
     "backgroundType": {
       "type": "enumeration",
-      "enum": [
-        "none",
-        "full",
-        "right",
-        "leaves",
-        "mixed leaves and right"
-      ],
+      "enum": ["none", "full", "right", "leaves", "mixed leaves and right"],
       "default": "full"
     },
     "photo": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "show": {
       "type": "enumeration",
-      "enum": [
-        "cards",
-        "photo"
-      ],
+      "enum": ["cards", "photo"],
       "default": "cards"
     },
     "photoColumn": {
       "type": "enumeration",
-      "enum": [
-        "first",
-        "second"
-      ]
+      "enum": ["first", "second"]
     },
     "sectionTitle": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
     },
-    "cards": {
+    "slides": {
       "type": "component",
       "repeatable": true,
       "component": "shared.card"
