@@ -14,9 +14,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "page": {
       "type": "enumeration",
@@ -29,8 +27,7 @@
         "Services-and-Fares/Services-in-Palma-de-Majorca",
         "Diagonal",
         "Contact"
-        ]
-        }
+      ]
     },
     "sectionsD": {
       "type": "relation",
@@ -42,10 +39,7 @@
     },
     "link": {
       "type": "enumeration",
-      "enum": [
-        "On Slide",
-        "On Button"
-      ]
+      "enum": ["On Slide", "On Button"]
     },
     "buttonText": {
       "type": "string"
