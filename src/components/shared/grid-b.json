@@ -40,6 +40,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.grid-b-card"
     }
   }
 }
