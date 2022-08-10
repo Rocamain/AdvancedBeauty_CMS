@@ -29,20 +29,20 @@
         "Contact"
       ]
     },
-    "sectionID": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::section-id.section-id"
-    },
     "content": {
       "type": "richtext"
     },
     "link": {
       "type": "enumeration",
-      "enum": ["On Slide/Cards", "On Button"]
+      "enum": ["On Slide", "On Button"]
     },
     "buttonText": {
       "type": "string"
+    },
+    "linkedTo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::link.link"
     }
   }
 }
