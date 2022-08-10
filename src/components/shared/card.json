@@ -39,7 +39,7 @@
     },
     "link": {
       "type": "enumeration",
-      "enum": ["On Slide", "On Button"]
+      "enum": ["On Slide/Cards", "On Button"]
     },
     "buttonText": {
       "type": "string"
