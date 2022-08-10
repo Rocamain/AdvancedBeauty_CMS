@@ -42,13 +42,6 @@
     "buttonText": {
       "type": "string"
     },
-    "FirstLineOnContentIsSubtitle": {
-      "type": "boolean"
-    },
-    "CardInContent": {
-      "type": "boolean",
-      "default": false
-    },
     "Card": {
       "type": "richtext"
     },
