@@ -19,16 +19,14 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "sectionTitle": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
     },
-    "cards": {
+    "slides": {
       "type": "component",
       "repeatable": true,
       "component": "shared.card"
