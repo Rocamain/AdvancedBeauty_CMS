@@ -2,29 +2,45 @@
   "collectionName": "components_shared_cards",
   "info": {
     "displayName": "Card",
-    "icon": "id-card-alt"
+    "icon": "id-card-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "text"
-    },
     "photo": {
-      "allowedTypes": ["images"],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "page": {
       "type": "enumeration",
-      "enum": ["Home"]
+      "enum": [
+        "Home"
+      ]
     },
     "sectionsD": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "enumeration",
+      "enum": [
+        "On Slide",
+        "On Button"
+      ]
+    },
+    "buttonText": {
+      "type": "string"
     }
   }
 }
