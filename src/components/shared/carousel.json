@@ -31,7 +31,7 @@
     "cards": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.cards"
+      "component": "shared.card"
     }
   }
 }
