@@ -45,7 +45,7 @@
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
     },
-    "cards": {
+    "slides": {
       "type": "component",
       "repeatable": true,
       "component": "shared.card"
