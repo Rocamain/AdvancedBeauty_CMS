@@ -14,11 +14,6 @@
       "type": "richtext",
       "required": true
     },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.cards"
-    },
     "button": {
       "displayName": "Button",
       "type": "component",
@@ -63,6 +58,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
     }
   }
 }
