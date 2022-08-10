@@ -23,16 +23,15 @@
         "images"
       ]
     },
-    "cards": {
-      "displayName": "cards",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.cards"
-    },
     "sectionTitle": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
     }
   }
 }
