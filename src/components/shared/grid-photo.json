@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_grid_photos",
+  "info": {
+    "displayName": "Grid Photo",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
