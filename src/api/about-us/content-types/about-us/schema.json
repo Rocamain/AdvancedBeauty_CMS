@@ -19,7 +19,8 @@
         "shared.carousel",
         "shared.grid-a",
         "shared.grid-b",
-        "shared.hero"
+        "shared.hero",
+        "shared.grid-photo"
       ],
       "required": true
     }
