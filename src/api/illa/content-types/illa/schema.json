@@ -20,7 +20,8 @@
         "shared.grid-a",
         "shared.grid-b",
         "shared.accordion",
-        "shared.hero"
+        "shared.hero",
+        "shared.grid-photo"
       ]
     },
     "label": {
