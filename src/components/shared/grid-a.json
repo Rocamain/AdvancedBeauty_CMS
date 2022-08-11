@@ -3,12 +3,13 @@
   "info": {
     "displayName": "Grid A",
     "icon": "columns",
-    "description": ""
+    "description": "Is a grid of two column, the text and title always shows, the second column can be a photo or slides"
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
       "type": "richtext",
@@ -33,7 +34,7 @@
     },
     "show": {
       "type": "enumeration",
-      "enum": ["cards", "photo"],
+      "enum": ["slides", "photo"],
       "default": "cards"
     },
     "photoColumn": {
