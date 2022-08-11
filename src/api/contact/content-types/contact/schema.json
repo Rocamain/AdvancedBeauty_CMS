@@ -18,7 +18,8 @@
         "shared.card-a",
         "shared.grid-a",
         "shared.grid-b",
-        "shared.hero"
+        "shared.hero",
+        "shared.grid-photo"
       ]
     }
   }
