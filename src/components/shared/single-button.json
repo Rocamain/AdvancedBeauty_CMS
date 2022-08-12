@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_single_buttons",
+  "info": {
+    "displayName": "singleButton",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "sections_title": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    }
+  }
+}
