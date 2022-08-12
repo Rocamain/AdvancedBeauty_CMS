@@ -19,7 +19,8 @@
         "shared.grid-a",
         "shared.grid-b",
         "shared.hero",
-        "shared.grid-photo"
+        "shared.grid-photo",
+        "shared.grid-button"
       ]
     }
   }

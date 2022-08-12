@@ -11,6 +11,7 @@ const COMPONENT = {
   "shared.grid-a": "GridA",
   "shared.grid-b": "GridB",
   "shared.grid-photo": "GridPhoto",
+  "shared.grid-button": "GridButton",
 };
 
 const { createCoreController } = require("@strapi/strapi").factories;
