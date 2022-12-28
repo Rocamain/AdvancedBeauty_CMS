@@ -7,26 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "buttonText": {
+    "linkText": {
       "type": "string",
       "required": true
     },
-    "sectionTitle": {
-      "type": "string"
-    },
-    "page": {
-      "type": "enumeration",
-      "enum": [
-        "Home",
-        "About-us",
-        "Services-and-Fares",
-        "Services-and-Fares/Services-in-L'illa-Diagonal",
-        "Services-and-Fares/Services-in-Turo-Park",
-        "Services-and-Fares/Services-in-Palma-de-Majorca",
-        "Contact"
-      ]
-    },
-    "SectionID": {
+    "linkTo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"

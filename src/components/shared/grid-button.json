@@ -7,13 +7,18 @@
   },
   "options": {},
   "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    },
     "buttons": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.single-button"
-    },
-    "Title": {
-      "type": "string"
+      "component": "shared.button"
     }
   }
 }
