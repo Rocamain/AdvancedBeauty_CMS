@@ -4,24 +4,17 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact",
-    "description": ""
+    "displayName": "Contact"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "components": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.card-a",
-        "shared.grid-a",
-        "shared.grid-b",
-        "shared.hero",
-        "shared.grid-photo",
-        "shared.grid-button"
-      ]
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
     }
   }
 }

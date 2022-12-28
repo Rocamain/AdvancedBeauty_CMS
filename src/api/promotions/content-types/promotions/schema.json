@@ -17,11 +17,11 @@
       "components": [
         "shared.card-a",
         "shared.carousel",
-        "shared.grid-a",
         "shared.grid-b",
-        "shared.hero",
+        "shared.grid-button",
         "shared.grid-photo",
-        "shared.grid-button"
+        "shared.hero",
+        "shared.grid-a"
       ]
     },
     "label": {
