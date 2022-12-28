@@ -2,47 +2,37 @@
   "collectionName": "components_shared_cards",
   "info": {
     "displayName": "Card",
-    "icon": "id-card-alt",
+    "icon": "address-card",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "minLength": 10,
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "minLength": 35,
+      "required": true
     },
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": false,
-      "allowedTypes": ["images"]
-    },
-    "page": {
-      "type": "enumeration",
-      "enum": [
-        "Home",
-        "About-us",
-        "Services-and-Fares",
-        "Services-and-Fares/Services-in-L'illa-Diagonal",
-        "Services-and-Fares/Services-in-Turo-Park",
-        "Services-and-Fares/Services-in-Palma-de-Majorca",
-        "Diagonal",
-        "Contact"
+      "required": true,
+      "allowedTypes": [
+        "images"
       ]
     },
-    "content": {
-      "type": "richtext"
-    },
-    "link": {
-      "type": "enumeration",
-      "enum": ["On Slide", "On Button"]
-    },
-    "buttonText": {
-      "type": "string"
-    },
-    "linkedTo": {
+    "linkTo": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::link.link"
+      "target": "api::section-id.section-id"
+    },
+    "linkText": {
+      "type": "string",
+      "minLength": 5
     }
   }
 }
