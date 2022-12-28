@@ -19,9 +19,9 @@
         "shared.carousel",
         "shared.grid-a",
         "shared.grid-b",
+        "shared.grid-button",
         "shared.grid-photo",
-        "shared.hero",
-        "shared.grid-button"
+        "shared.hero"
       ],
       "required": true
     }

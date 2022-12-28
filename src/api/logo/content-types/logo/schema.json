@@ -19,11 +19,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "navigation_audience": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::navigation.audience"
     }
   }
 }

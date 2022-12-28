@@ -14,20 +14,20 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "path": {
       "type": "enumeration",
       "enum": [
         "Home",
         "About us",
-        "Services and Fare",
-        "Promotions",
-        "Fares",
-        "Contact",
-        "Illa",
-        "Palma",
-        "Turo"
+        "Services and Fares",
+        "Services and Fares/Promotions",
+        "Services and Fares/Services in Palma de Majorca",
+        "Services and Fares/Services in Turo Park",
+        "Services and Fares/Services in L'Illa Diagonal",
+        "Services and Fares/Fares",
+        "Contact"
       ],
       "required": true
     }
