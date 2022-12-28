@@ -5,13 +5,13 @@
  */
 
 const COMPONENT = {
-  "shared.carousel": "Carousel",
-  "shared.hero": "Hero",
-  "shared.accordion": "Accordion",
   "shared.card-a": "CardA",
-  "shared.grid-a": "GridA",
+  "shared.carousel": "Carousel",
   "shared.grid-b": "GridB",
+  "shared.hero": "Hero",
   "shared.grid-photo": "GridPhoto",
+  "shared.services": "Services",
+  "shared.grid-a": "GridA",
 };
 
 const { createCoreController } = require("@strapi/strapi").factories;
@@ -37,7 +37,6 @@ module.exports = createCoreController("api::palma.palma", ({ strapi }) => {
 
       if (data.attributes.components) {
         data.attributes.components.map((component) => {
-          console.log(data);
           component.componentName = COMPONENT[component.__component];
         });
       }
