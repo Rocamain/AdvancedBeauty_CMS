@@ -16,7 +16,7 @@
     "subTitle": {
       "type": "string",
       "required": true,
-      "minLength": 8,
+      "minLength": 5,
       "maxLength": 25
     },
     "content": {
@@ -32,7 +32,9 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "showContent": {
       "type": "boolean",
