@@ -13,11 +13,6 @@
     "content": {
       "type": "richtext"
     },
-    "isButton": {
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
     "showTitle": {
       "type": "boolean",
       "default": true,
@@ -27,35 +22,27 @@
       "type": "string",
       "maxLength": 30
     },
-    "page": {
-      "type": "enumeration",
-      "enum": [
-        "Home",
-        "About-us",
-        "Services-and-Fares",
-        "Services-and-Fares/Services-in-L'illa-Diagonal",
-        "Services-and-Fares/Services-in-Turo-Park",
-        "Services-and-Fares/Services-in-Palma-de-Majorca",
-        "Diagonal",
-        "Contact"
-      ],
-      "default": "Home"
-    },
-    "pageSection": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::section-id.section-id"
-    },
     "titleColor": {
       "type": "enumeration",
-      "enum": ["orange", "grey", "blue"],
+      "enum": [
+        "orange",
+        "grey",
+        "blue"
+      ],
       "default": "grey",
       "required": true
     },
     "icon": {
-      "allowedTypes": ["images"],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "iconFullSize": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
