@@ -4,16 +4,6 @@
  *  contact controller
  */
 
-const COMPONENT = {
-  "shared.hero": "Hero",
-  "shared.carousel": "Carousel",
-  "shared.card-a": "CardA",
-  "shared.grid-a": "GridA",
-  "shared.grid-b": "GridB",
-  "shared.grid-photo": "GridPhoto",
-  "shared.grid-button": "GridButton",
-};
-
 const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController("api::contact.contact", ({ strapi }) => {
@@ -34,16 +24,17 @@ module.exports = createCoreController("api::contact.contact", ({ strapi }) => {
 
       // Calling the default core action
       const { data, meta } = await super.find(ctx);
-
-      if (data.attributes.components) {
-        data.attributes.components.map((component) => {
-          component.componentName = COMPONENT[component.__component];
-        });
+      const components = [];
+      if (data.attributes.Hero) {
+        data.attributes.Hero.componentName = "Hero";
+        components.push(data.attributes.Hero);
       }
+      components.push({ componentName: "Form" });
       // some more custom logic
+
       meta.date = Date.now();
 
-      return { data: data.attributes.components, meta };
+      return { data: components, meta };
     },
   };
 });
