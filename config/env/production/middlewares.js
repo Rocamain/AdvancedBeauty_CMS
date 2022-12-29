@@ -22,6 +22,7 @@ module.exports = [
             "strapi.io",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "res.cloudinary.com/",
           ],
           "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
           upgradeInsecureRequests: null,
