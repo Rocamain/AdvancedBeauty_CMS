@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_shops_infos",
+  "info": {
+    "displayName": "ShopsInfo",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

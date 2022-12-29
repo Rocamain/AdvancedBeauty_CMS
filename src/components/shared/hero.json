@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 25
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 25
+    },
+    "content": {
+      "type": "text",
+      "maxLength": 180
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "showContent": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

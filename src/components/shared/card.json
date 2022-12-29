@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 10,
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "minLength": 35,
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkTo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    },
+    "linkText": {
+      "type": "string",
+      "minLength": 5
+    }
+  }
+}

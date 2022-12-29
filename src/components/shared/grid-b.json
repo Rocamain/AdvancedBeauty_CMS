@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_grid_bs",
+  "info": {
+    "displayName": "Grid B",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "maxLength": 25
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "Small",
+        "Big"
+      ],
+      "required": true,
+      "default": "Big"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.grid-b-card",
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    }
+  }
+}

@@ -12,6 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card-a",
+        "shared.carousel",
+        "shared.grid-b",
+        "shared.grid-button",
+        "shared.grid-photo",
+        "shared.hero",
+        "shared.grid-a",
+        "shared.services"
+      ]
+    },
     "label": {
       "type": "string"
     }

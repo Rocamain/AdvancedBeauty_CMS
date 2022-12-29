@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "qrcode"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -4,9 +4,13 @@
  *  home controller
  */
 const COMPONENT = {
+  "shared.hero": "Hero",
   "shared.carousel": "Carousel",
   "shared.card-a": "CardA",
   "shared.grid-a": "GridA",
+  "shared.grid-b": "GridB",
+  "shared.grid-photo": "GridPhoto",
+  "shared.grid-button": "GridButton",
 };
 
 const { createCoreController } = require("@strapi/strapi").factories;
@@ -38,7 +42,7 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => {
       // some more custom logic
       meta.date = Date.now();
 
-      return { data, meta };
+      return { data: data.attributes.components, meta };
     },
   };
 });

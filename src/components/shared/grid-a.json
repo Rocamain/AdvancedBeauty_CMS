@@ -3,21 +3,13 @@
   "info": {
     "displayName": "Grid A",
     "icon": "columns",
-    "description": ""
+    "description": "Is a grid of two column, the text and title always shows, the second column can be a photo or slides"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext",
       "required": true
-    },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.cards"
     },
     "button": {
       "displayName": "Button",
@@ -58,6 +50,17 @@
         "first",
         "second"
       ]
+    },
+    "sectionTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    },
+    "cardLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card",
+      "required": false
     }
   }
 }

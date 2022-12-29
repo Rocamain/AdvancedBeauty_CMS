@@ -4,17 +4,17 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact",
-    "description": ""
+    "displayName": "Contact"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "components": {
-      "type": "dynamiczone",
-      "components": []
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
     }
   }
 }

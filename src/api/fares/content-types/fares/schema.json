@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "fareses",
+  "info": {
+    "singularName": "fares",
+    "pluralName": "fareses",
+    "displayName": "Fares",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.card-a",
+        "shared.carousel",
+        "shared.grid-b",
+        "shared.grid-button",
+        "shared.grid-photo",
+        "shared.hero",
+        "shared.grid-a"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_grid_buttons",
+  "info": {
+    "displayName": "Grid  Button",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

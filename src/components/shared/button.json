@@ -7,13 +7,14 @@
   },
   "options": {},
   "attributes": {
-    "buttonText": {
+    "linkText": {
       "type": "string",
       "required": true
     },
-    "buttonTo": {
-      "type": "string",
-      "required": true
+    "linkTo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-id.section-id"
     }
   }
 }
