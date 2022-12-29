@@ -14,6 +14,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "res.cloudinary.com/",
           ],
           "media-src": [
             "'self'",
