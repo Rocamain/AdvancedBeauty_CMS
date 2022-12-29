@@ -16,6 +16,7 @@
     "@strapi/strapi": "^4.3.9",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-navigation": "^2.0.13",
     "strapi-plugin-transformer": "^2.0.1"
   },
