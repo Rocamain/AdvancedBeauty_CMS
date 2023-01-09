@@ -16,22 +16,31 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "content": {
       "type": "richtext",
       "required": true,
       "minLength": 30
     },
-    "sectionTitle": {
+    "withLink": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
     },
     "backgroundType": {
       "type": "enumeration",
-      "enum": ["none", "leaves", "circles"],
+      "enum": [
+        "none",
+        "leaves",
+        "circles"
+      ],
       "default": "none"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
