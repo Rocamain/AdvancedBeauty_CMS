@@ -10,7 +10,7 @@
     "content": {
       "type": "string"
     },
-    "sectionTitle": {
+    "withLink": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
@@ -19,6 +19,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.button"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
