@@ -24,9 +24,6 @@
         "shared.grid-a",
         "shared.services"
       ]
-    },
-    "label": {
-      "type": "string"
     }
   }
 }

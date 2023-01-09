@@ -23,9 +23,6 @@
         "shared.hero",
         "shared.grid-a"
       ]
-    },
-    "label": {
-      "type": "string"
     }
   }
 }

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "section-id",
     "pluralName": "section-ids",
-    "displayName": "Sections_title",
+    "displayName": "link",
     "description": ""
   },
   "options": {
@@ -12,24 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "URL": {
       "type": "string",
-      "required": false
-    },
-    "path": {
-      "type": "enumeration",
-      "enum": [
-        "Home",
-        "About us",
-        "Services and Fares",
-        "Services and Fares/Promotions",
-        "Services and Fares/Services in Palma de Majorca",
-        "Services and Fares/Services in Turo Park",
-        "Services and Fares/Services in L'Illa Diagonal",
-        "Services and Fares/Fares",
-        "Contact"
-      ],
-      "required": true
+      "required": true,
+      "unique": false
     }
   }
 }
