@@ -27,7 +27,7 @@
       "component": "shared.grid-b-card",
       "required": true
     },
-    "sectionTitle": {
+    "withLink": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
