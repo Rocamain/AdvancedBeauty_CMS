@@ -20,14 +20,15 @@
         "images"
       ]
     },
-    "slides": {
-      "displayName": "Card",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.card"
-    },
     "title": {
       "type": "string"
+    },
+    "slides": {
+      "displayName": "Carousel Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.carousel-slide",
+      "required": true
     }
   }
 }
