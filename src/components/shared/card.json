@@ -1,7 +1,7 @@
 {
   "collectionName": "components_shared_cards",
   "info": {
-    "displayName": "Card",
+    "displayName": "CardLink",
     "icon": "address-card",
     "description": ""
   },
@@ -25,14 +25,10 @@
         "images"
       ]
     },
-    "linkTo": {
+    "cardLinkedTo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
-    },
-    "linkText": {
-      "type": "string",
-      "minLength": 5
     }
   }
 }
