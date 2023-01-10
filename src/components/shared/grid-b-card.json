@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_grid_b_cards",
+  "info": {
+    "displayName": "Grid B card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "showTitle": {
+      "type": "boolean",
+      "required": true
+    },
+    "titleColor": {
+      "type": "enumeration",
+      "enum": [
+        "grey",
+        "orange",
+        "blue"
+      ],
+      "required": false,
+      "default": "grey"
+    },
+    "iconFullSize": {
+      "type": "boolean",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -2,22 +2,12 @@
   "collectionName": "components_shared_grid_bs",
   "info": {
     "displayName": "Grid B",
-    "icon": "align-justify",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": false,
-      "maxLength": 25
-    },
-    "size": {
-      "type": "enumeration",
-      "enum": [
-        "Small",
-        "Big"
-      ],
       "required": true
     },
     "withLink": {
@@ -25,12 +15,18 @@
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
     },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "Big",
+        "Small"
+      ]
+    },
     "cards": {
-      "displayName": "card grid B",
+      "displayName": "grid b card",
       "type": "component",
       "repeatable": true,
-      "component": "shared.card-grid-b",
-      "required": true
+      "component": "shared.grid-b-card"
     }
   }
 }
