@@ -26,15 +26,21 @@
     },
     "iconFullSize": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "icon": {
       "type": "media",
       "multiple": true,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "subTitle": {
+      "type": "string"
     }
   }
 }
