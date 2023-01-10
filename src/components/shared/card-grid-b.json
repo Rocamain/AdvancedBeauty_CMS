@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_card_grid_bs",
+  "info": {
+    "displayName": "card grid B"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "showTitle": {
+      "type": "boolean",
+      "required": true
+    },
+    "titleColor": {
+      "type": "enumeration",
+      "enum": [
+        "grey",
+        "orange",
+        "blue"
+      ],
+      "default": "grey"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iconFullSize": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
