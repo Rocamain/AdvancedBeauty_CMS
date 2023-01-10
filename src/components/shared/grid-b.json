@@ -18,19 +18,19 @@
         "Small",
         "Big"
       ],
-      "required": true,
-      "default": "Big"
-    },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.grid-b-card",
       "required": true
     },
     "withLink": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "cards": {
+      "displayName": "card grid B",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card-grid-b",
+      "required": true
     }
   }
 }
