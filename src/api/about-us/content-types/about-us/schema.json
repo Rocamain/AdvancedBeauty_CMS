@@ -16,7 +16,6 @@
       "type": "dynamiczone",
       "components": [
         "shared.card-a",
-        "shared.carousel",
         "shared.grid-a",
         "shared.grid-button",
         "shared.grid-photo",

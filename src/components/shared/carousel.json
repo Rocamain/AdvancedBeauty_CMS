@@ -2,15 +2,17 @@
   "collectionName": "components_shared_carousels",
   "info": {
     "displayName": "Carousel",
-    "icon": "address-card",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "subtitle": {
+    "title": {
       "type": "string",
-      "required": true,
-      "minLength": 8
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
     },
     "background": {
       "type": "media",
@@ -20,15 +22,11 @@
         "images"
       ]
     },
-    "title": {
-      "type": "string"
-    },
     "slides": {
-      "displayName": "Carousel Slide",
+      "displayName": "Carousel slide",
       "type": "component",
       "repeatable": true,
-      "component": "shared.carousel-slide",
-      "required": true
+      "component": "shared.carousel-slide"
     }
   }
 }

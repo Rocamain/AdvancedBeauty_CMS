@@ -1,7 +1,7 @@
 {
   "collectionName": "components_shared_carousel_slides",
   "info": {
-    "displayName": "Carousel Slide",
+    "displayName": "Carousel slide",
     "description": ""
   },
   "options": {},
@@ -14,24 +14,21 @@
       "type": "richtext",
       "required": true
     },
-    "photo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "linkText": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "linkTo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::section-id.section-id"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
