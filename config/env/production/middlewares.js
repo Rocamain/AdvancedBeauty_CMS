@@ -1,6 +1,12 @@
 module.exports = [
   "strapi::errors",
   {
+    name: "strapi::body",
+    config: {
+      jsonLimit: "10mb",
+    },
+  },
+  {
     name: "strapi::security",
     config: {
       contentSecurityPolicy: {
@@ -34,7 +40,7 @@ module.exports = [
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
-  "strapi::body",
+
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
