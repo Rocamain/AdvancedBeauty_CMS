@@ -37,6 +37,7 @@ module.exports = [
     },
   },
   "strapi::cors",
+  "strapi::favicon",
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
