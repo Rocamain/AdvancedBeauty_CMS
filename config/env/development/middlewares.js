@@ -30,7 +30,7 @@ module.exports = [
             "dl.airtable.com",
             "res.cloudinary.com",
           ],
-          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
+
           upgradeInsecureRequests: null,
         },
       },

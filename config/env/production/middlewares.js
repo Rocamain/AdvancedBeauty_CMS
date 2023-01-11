@@ -31,7 +31,7 @@ module.exports = [
             "res.cloudinary.com",
             "res.cloudinary.com/",
           ],
-          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
+
           upgradeInsecureRequests: null,
         },
       },
