@@ -18,6 +18,7 @@ module.exports = [
             "data:",
             "blob:",
             "strapi.io",
+            "cdn.jsdelivr.net",
             "dl.airtable.com",
             "res.cloudinary.com",
           ],
@@ -40,8 +41,6 @@ module.exports = [
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
-
   "strapi::session",
-  "strapi::favicon",
   "strapi::public",
 ];

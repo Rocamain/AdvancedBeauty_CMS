@@ -41,6 +41,5 @@ module.exports = [
   "strapi::logger",
   "strapi::query",
   "strapi::session",
-  "strapi::favicon",
   "strapi::public",
 ];
