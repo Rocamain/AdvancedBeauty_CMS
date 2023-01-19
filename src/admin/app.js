@@ -1,4 +1,4 @@
-import favicon from "./extensions/favicon.png";
+import favicon from "./extensions/favicon.ico";
 import logo from "./extensions/logo-cms.png";
 export default {
   config: {
