@@ -16,6 +16,14 @@
       "type": "string",
       "required": true,
       "unique": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "default": "internal"
     }
   }
 }

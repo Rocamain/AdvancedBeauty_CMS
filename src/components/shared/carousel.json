@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "subTitle": {
+    "subtitle": {
       "type": "string",
       "required": true
     },
