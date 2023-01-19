@@ -1,17 +1,12 @@
 module.exports = [
   "strapi::errors",
   {
-    name: "strapi::body",
-    config: {
-      jsonLimit: "10mb",
-    },
-  },
-  {
     name: "strapi::security",
     config: {
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
+          "connect-src": ["'self'", "https:"],
           "connect-src": ["'self'", "https:"],
           "img-src": [
             "'self'",
@@ -19,6 +14,7 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "res.cloudinary.com/",
           ],
           "media-src": [
             "'self'",
@@ -34,8 +30,14 @@ module.exports = [
       },
     },
   },
-  "strapi::favicon",
   "strapi::cors",
+  {
+    name: "strapi::body",
+    config: {
+      jsonLimit: "10mb",
+    },
+  },
+  "strapi::favicon",
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
