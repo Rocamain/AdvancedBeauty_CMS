@@ -24,13 +24,9 @@
       "required": false,
       "default": "grey"
     },
-    "iconFullSize": {
-      "type": "boolean",
-      "required": false
-    },
     "icon": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
