@@ -35,7 +35,7 @@
     "content": {
       "type": "richtext"
     },
-    "subTitle": {
+    "subtitle": {
       "type": "string"
     }
   }
