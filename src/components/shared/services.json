@@ -2,12 +2,25 @@
   "collectionName": "components_shared_services",
   "info": {
     "displayName": "Services",
-    "icon": "qrcode"
+    "icon": "qrcode",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "label": {
-      "type": "string"
+    "shopName": {
+      "type": "string",
+      "minLength": 6,
+      "required": true,
+      "maxLength": 30
+    },
+    "bookingAPI": {
+      "type": "enumeration",
+      "enum": [
+        "palma de majorca",
+        "turo park",
+        "i'lla diagonal"
+      ],
+      "required": true
     }
   }
 }
