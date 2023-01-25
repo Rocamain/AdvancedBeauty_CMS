@@ -16,9 +16,9 @@
     "bookingAPI": {
       "type": "enumeration",
       "enum": [
-        "palma",
-        "turo",
-        "illa"
+        "palma de majorca",
+        "turo park",
+        "i'lla diagonal"
       ],
       "required": true
     }
