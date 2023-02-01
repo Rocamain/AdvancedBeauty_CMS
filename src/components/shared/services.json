@@ -18,7 +18,7 @@
       "enum": [
         "palma de majorca",
         "turo park",
-        "i'lla diagonal"
+        "l'illa diagonal"
       ],
       "required": true
     }
