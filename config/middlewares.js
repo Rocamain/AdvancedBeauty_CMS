@@ -7,12 +7,10 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "connect-src": ["'self'", "https:"],
           "img-src": [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
             "res.cloudinary.com",
             "res.cloudinary.com/",
           ],
@@ -20,7 +18,6 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "dl.airtable.com",
             "res.cloudinary.com",
             "res.cloudinary.com/",
           ],
