@@ -54,7 +54,7 @@ Repos:
 
 ## Install [PostgreSQL](https://www.postgresql.org/download/).
 
----
+
 
 ### Mac
 
@@ -149,13 +149,16 @@ chmod 0600 .pgpass
 
 When you run psql it should now use this password as a default so you don't have to provide one on every command.
 
-## 2 If you have postgresql installed , create your data base and connect it. If it is not connected.
+## Postgresql installed , create your data base and connect it. If it is not connected.
 
-1. run <code>sudo psql<code/>
-2. <code>CREATE DATABASE database_name;</code>
-3. <code>GRANT ALL PRIVILEGES ON DATABASE "database_name" to my_username;</code>
+run in the terminal:
+```
+sudo psql
 
-## 3 Add the into your .env file.
+CREATE DATABASE database_name;
+GRANT ALL PRIVILEGES ON DATABASE "database_name" to my_username;
+```
+##Add the into your .env file.
 
 Test environment
 
@@ -169,21 +172,24 @@ Test environment
 
 Repeat the steps 2.2 to 2.4 to add the DEV environment. you have the env.example for your reference.
 
-## 4. Run Scripts.
+##Run Scripts.
 
-4.1. <code>yarn install</code>
+```yarn install
+```
 
-4.2 <code>npm run build</code> as strapi need to build the admin panel
+To build strapi Admin panel:
 
-4.3 <code>npm run develop</code>
+```npm run build
+```
 
-5. App running
+finally
 
-5.1 you will ask to create a user.
+```npm run develop
+```
 
-5.2 Once you logged in you will need to configure your strapi app access to roles
+5. App running on /admin
 
-5.3 Configure your navigation, [instructions](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation)
+you will ask to create a user. Once you logged in you will need to configure your strapi app access to roles and setup your navigation [instructions](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation)
 
 ---
 
