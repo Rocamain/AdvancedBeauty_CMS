@@ -11,7 +11,7 @@
 
 # DESCRIPTION
 
-Advanced Beauty CMS is a Strapi headless CMS linked to postgres data base, where your can choose and reorganize the components for every each route, create links, and add content. [Request me access](mailto:fjrocavazquez@gmail.com) access if you want to play with it,
+Advanced Beauty CMS is a Strapi headless CMS linked to postgres data base, where your can choose and reorganize the components for each avilable route, create links, and add content. [Request me access](mailto:fjrocavazquez@gmail.com) access if you want to play with it,
 
 Project on [production](https://https://advancedbeautycms-production.up.railway.app/admin).
 
