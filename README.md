@@ -54,8 +54,6 @@ Repos:
 
 ## Install [PostgreSQL](https://www.postgresql.org/download/).
 
-
-
 ### Mac
 
 - Please note that if you are using a Mac with the M1 chip you will need to install `psql` via your Rosetta terminal as we are installing it globally and the installation will not persist otherwise.
@@ -152,12 +150,14 @@ When you run psql it should now use this password as a default so you don't have
 ## Postgresql installed , create your data base and connect it. If it is not connected.
 
 run in the terminal:
+
 ```
 sudo psql
 
 CREATE DATABASE database_name;
 GRANT ALL PRIVILEGES ON DATABASE "database_name" to my_username;
 ```
+
 ##Add the into your .env file.
 
 Test environment
@@ -174,17 +174,21 @@ Repeat the steps 2.2 to 2.4 to add the DEV environment. you have the env.example
 
 ##Run Scripts.
 
-```yarn install
+```
+yarn install
+
 ```
 
 To build strapi Admin panel:
 
-```npm run build
+```
+npm run build
 ```
 
 finally
 
-```npm run develop
+```
+npm run develop
 ```
 
 5. App running on /admin
