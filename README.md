@@ -27,8 +27,8 @@ My main goal was to learn and implement a CMS that will help to the user to mana
 
 This project is part of major project , which includes:
 
-1. [Bank End](https://advancedbeauty-be-production.up.railway.app/), Api for bookings management
-2. [Front End](https://advanced-beauty-fe.vercel.app/)
+1. [Advanced beauty booking system](https://advancedbeauty-be-production.up.railway.app/), Api for bookings management
+2. [Advanced beauty web](https://advanced-beauty-fe.vercel.app/)
 
 Repos:
 
@@ -49,6 +49,13 @@ Repos:
 - Implement a preview mode.
 - Reconfigure and rename the components and end point of the api in more generic way.
 - Use the design system of strapi to build my own navigation plugin.
+
+
+---
+
+# GET STARTED
+
+If you just want to test the cms, you don't need to follow the installation steps. It already on production. [Strapi/CMS](https://advancedbeautycms-production.up.railway.app/admin), request me [access](mailto:fjrocavazquez@gmail.com)
 
 ---
 
