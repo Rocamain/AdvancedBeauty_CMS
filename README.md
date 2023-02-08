@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://drive.google.com/uc?export=view&id=1EnnOQFkZHuW0iPJIc3mzY6mmbHpuPx_S">
-  <source media="(prefers-color-scheme: light)" srcset="https://drive.google.com/uc?export=view&id=1EnnOQFkZHuW0iPJIc3mzY6mmbHpuPx_S">
-  <img alt="Logo Advantage Beauty in light Mode mode." srcset="https://drive.google.com/uc?export=view&id=1EnnOQFkZHuW0iPJIc3mzY6mmbHpuPx_S">
+  <source media="(prefers-color-scheme: dark)" srcset="https://drive.google.com/uc?export=view&id=1PFCTnT2rsAEy6Yycq4kZvuvobpTJ72nr">
+  <source media="(prefers-color-scheme: light)" srcset="https://drive.google.com/uc?export=view&id=1PFCTnT2rsAEy6Yycq4kZvuvobpTJ72nr">
+  <img alt="Logo Advantage Beauty in light Mode mode." srcset="https://drive.google.com/uc?export=view&id=1PFCTnT2rsAEy6Yycq4kZvuvobpTJ72nr">
 </picture>
 
 ## Tech
