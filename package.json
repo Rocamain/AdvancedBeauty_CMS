@@ -24,7 +24,8 @@
     "name": "Francisco Javier Roca"
   },
   "strapi": {
-    "uuid": "f3100e32-f3a7-45c3-aab6-69131e16758a"
+    "uuid": "f3100e32-f3a7-45c3-aab6-69131e16758a",
+    "telemetryDisabled": false
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
