@@ -34,7 +34,7 @@ module.exports = [
       headers: "*",
       origin: [
         "http://localhost:3000",
-        "https://advanced-beauty-fe.vercel.app/",
+        "https://advanced-beauty-cms.up.railway.app/admin/auth/login",
       ],
     },
   },
