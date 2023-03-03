@@ -27,7 +27,7 @@ module.exports = [
       },
     },
   },
-  "strapi::coors",
+  "strapi::cors",
   {
     name: "strapi::body",
     config: {
