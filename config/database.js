@@ -9,7 +9,9 @@ module.exports = ({ env }) => {
         user: env("PGUSER"),
         password: env("PGPASSWORD"),
         ssl: {
-          rejectUnauthorized: env.bool(false),
+          ssl: {
+            rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
+          },
         },
       },
     },
