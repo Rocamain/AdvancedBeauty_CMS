@@ -8,11 +8,7 @@ module.exports = ({ env }) => {
         database: env("PGDATABASE"),
         user: env("PGUSER"),
         password: env("PGPASSWORD"),
-        ssl: {
-          ssl: {
-            rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
-          },
-        },
+        ssl: env.bool(false),
       },
     },
     acquireConnectionTimeout: 600000,
