@@ -8,7 +8,7 @@ module.exports = ({ env }) => {
         database: env("PGDATABASE"),
         user: env("PGUSER"),
         password: env("PGPASSWORD"),
-        ssl: env.bool(false),
+        ssl: env.bool(true),
       },
     },
     acquireConnectionTimeout: 600000,
