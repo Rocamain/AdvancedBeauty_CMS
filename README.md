@@ -50,7 +50,6 @@ Repos:
 - Reconfigure and rename the components and end point of the api in more generic way.
 - Use the design system of strapi to build my own navigation plugin.
 
-
 ---
 
 # GET STARTED
@@ -206,6 +205,6 @@ you will ask to create a user. Once you logged in you will need to configure you
 
 # Let's keep in touch
 
-- [LinkedIn](https://example.com)
-- [CV](https://example.com)
-- [Porfolio](https://example.com)
+- [LinkedIn](https://www.linkedin.com/in/francisco-javier-roca-vazquez/)
+- [CV](https://drive.google.com/file/d/1go0sBfp5Y8yimuth0Ya4xrYH68os-Ew7/view?usp=share_link)
+- [Portfolio](https://portfolio-javi-roca-git-main-rocamain.vercel.app/)
