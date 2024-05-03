@@ -1,35 +1,41 @@
 {
   "name": "advanced-beauty-cms",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "Francisco Javier Roca"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "NODE_ENV=development strapi develop",
     "start": "strapi develop",
     "start:prod": "NODE_ENV=production strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "^4.5.6",
-    "@strapi/plugin-users-permissions": "^4.5.6",
+    "@strapi/plugin-cloud": "^4.24.1",
+    "@strapi/plugin-i18n": "^4.24.1",
+    "@strapi/plugin-users-permissions": "^4.24.1",
     "@strapi/provider-upload-cloudinary": "^4.5.6",
-    "@strapi/strapi": "^4.5.6",
+    "@strapi/strapi": "^4.24.1",
+    "better-sqlite3": "8.6.0",
     "pg": "^8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
     "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-navigation": "^2.2.3",
-    "strapi-plugin-transformer": "^2.2.0"
+    "strapi-plugin-transformer": "^3.1.2",
+    "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "Francisco Javier Roca"
+  "engines": {
+    "node": ">=18.x.x <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "f3100e32-f3a7-45c3-aab6-69131e16758a",
     "telemetryDisabled": false
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
